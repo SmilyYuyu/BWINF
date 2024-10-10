@@ -1,1 +1,18 @@
+#ein for loop um die Zahlen der Ersten Zeile einzulesen -- in n,m,k einteilen
+#Definieren dass das Alphabeth die Reihenfolge ist, von klein bis gross
+#Liste erstellen
+#Die zweite Zeile einlesen und in die Liste einordnen
+#Dann die zeilen jeweils einordnen, in dem wir ein prgramm(classe,method) schreiben
+#Konflikte loesen (die letzte Version benutzen dass es eingelesen hat oder anders?)
+#letzte Zeile einlesen, und in der Liste suchen und printen
+
+#Den Text einlesen und jede Zeile einzeln rausbekommen
+liste = "" #Liste
+with open('dateiname.txt', 'r') as file:
+    for line in file:
+
+#erste Zeile
+n = 0
+m = 0
+k = 0
 
